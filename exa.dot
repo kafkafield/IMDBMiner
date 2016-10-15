@@ -1,0 +1,8 @@
+graph G {
+	film1 [shape=box];
+	film2 [shape=box];
+	film3 [shape=box];
+	actor1 -- film1 -- actress1;
+	actress1 -- film2 -- actor2;
+	actor1 -- film3 -- actor2;
+}
